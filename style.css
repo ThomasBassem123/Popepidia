@@ -1,0 +1,54 @@
+/* Somethings to make the web better */
+
+body {
+  font-family: -apple-system, "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  background-color: rgb(245, 255, 250);
+}
+
+html {
+  font-size: 100%;
+}
+
+img {
+  border-radius: 15px 15px;
+  width: 500px;
+}
+
+.header {
+  color: black;
+  font-size: 25px;
+  gap: 0.25rem;
+  margin-top: 10px;
+  background-color: rgba(0, 162, 255, 0.5);
+  border-radius: 10px;
+  padding-left: 2rem;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/* Somethings to make the web better */
+
+/* The scroll-bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+  box-shadow: 18px 18px 18px 18px rgba(143, 139, 139, 0.25);
+}
+
+/* The scroll-bar */
